@@ -339,7 +339,11 @@ def copy_button_html(text_to_copy: str, button_key: str, button_text: str = "�
 
 # --- Streamlit App UI ---
 
-st.set_page_config(page_title="MedScribe AI", layout="wide")
+st.set_page_config(
+    page_title="MedScribe AI",
+    page_icon="⚕️",  
+    layout="wide"
+)
 
 # --- Sidebar --- (Remains the same)
 with st.sidebar:
