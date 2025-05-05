@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+python-docx  # For docx
+Pillow       # For PIL (Image)
+fpdf2        # Often the package name for fpdf
